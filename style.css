@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.para h1{
+    color: brown;
+    font-size: 50px;
+    font-family: 'Lucida Handwriting';
+}
+.num span{
+    font-size: 100px;
+}
+.btn:hover {
+    background-color: #636161;
+    transition: 0.5s;
+    color: #fff;
+    cursor: pointer;
+}
+.btn{
+    margin: 0.5rem;
+    padding: 0.6rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgba(250, 235, 215, 0.763);
+}
+.pos{
+    color: green;
+}
+.neg{
+    color: red;
+}
